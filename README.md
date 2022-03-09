@@ -1,6 +1,6 @@
 # detect-create-package-manager
 
-An NPM package that detects the package manager that's being used to run a create workflow.
+An NPM package that detects the package manager that's being used to run the `create` command that's commonly used to initialize new projects. It's useful to use the same package manager to install the dependencies right after creating the project.
 
 ## Install
 
