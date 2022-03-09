@@ -13,11 +13,12 @@
       "skipDefaultLibCheck": true,
       "skipLibCheck": true,
       "declaration": true,
-      "inlineSourceMap": true
+      "inlineSourceMap": true,
+      "outDir": "dist/"
     },
     "exclude": [
+      "**/*.test.ts",
       "**/dist/**",
       "node_modules"
     ]
   }
-  

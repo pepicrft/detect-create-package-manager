@@ -4,6 +4,9 @@
   "description": "A utility that returns the package manager used to a create workflow",
   "type": "module",
   "scripts": {
+    "prepack": "pnpm build",
+    "build": "rimraf dist && tsc",
+    "test": "vitest run"
   },
   "exports": {
     ".": {
@@ -24,5 +27,15 @@
     "darwin",
     "linux",
     "win32"
-  ]
+  ],
+  "devDependencies": {
+    "@types/node": "^17.0.21",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.6.2",
+    "vitest": "^0.6.0"
+  },
+  "dependencies": {
+    "pathe": "^0.2.0",
+    "vite": "^2.8.6"
+  }
 }
