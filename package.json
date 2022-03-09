@@ -1,0 +1,19 @@
+{
+  "name": "detect-create-package-manager",
+  "version": "1.0.0",
+  "description": "A utility that returns the package manager used to a create workflow",
+  "type": "module",
+  "scripts": {
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "author": "pedro@craftweg.com",
+  "license": "MIT",
+  "files": [
+    "/dist"
+  ]
+}
