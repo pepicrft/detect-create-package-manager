@@ -1,4 +1,3 @@
-import path from "pathe";
 import { defineConfig } from "vite";
 
 export default defineConfig({
