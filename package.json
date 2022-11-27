@@ -35,7 +35,7 @@
     "vitest": "^0.25.0"
   },
   "dependencies": {
-    "pathe": "^0.2.0",
+    "pathe": "^1.0.0",
     "vite": "^2.8.6"
   }
 }
