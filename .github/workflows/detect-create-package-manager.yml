@@ -16,27 +16,27 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
-        with:
-          node-version: "19"
-          cache: 'pnpm'
       - uses: pnpm/action-setup@v2.2.4
         with:
           version: "latest"
           run_install: true
+      - uses: actions/setup-node@v3
+        with:
+          node-version: "19"
+          cache: 'pnpm'
       - name: Build
         run: pnpm build
   test:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
-        with:
-          node-version: "19"
-          cache: 'pnpm'
       - uses: pnpm/action-setup@v2.2.4
         with:
           version: "latest"
           run_install: true
+      - uses: actions/setup-node@v3
+        with:
+          node-version: "19"
+          cache: 'pnpm'
       - name: Test
         run: pnpm test
