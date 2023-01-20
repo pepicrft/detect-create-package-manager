@@ -2,14 +2,14 @@ lockfileVersion: 5.4
 
 specifiers:
   '@types/node': ^18.0.0
-  pathe: 1.0.0
+  pathe: 1.1.0
   rimraf: ^3.0.2
   typescript: ^4.6.2
   vite: ^3.0.0
   vitest: ^0.27.0
 
 dependencies:
-  pathe: 1.0.0
+  pathe: 1.1.0
 
 devDependencies:
   '@types/node': 18.11.9
@@ -417,7 +417,7 @@ packages:
     resolution: {integrity: sha512-QL108Hwt+u9bXdWgOI0dhzZfACovn5Aen4Xvc8Jasd9ouRH4NjnrXEiyP3nVvJo91zPlYjVRckta0Nt2zfoR6g==}
     dependencies:
       acorn: 8.8.1
-      pathe: 1.0.0
+      pathe: 1.1.0
       pkg-types: 1.0.1
       ufo: 1.0.1
     dev: true
@@ -451,8 +451,8 @@ packages:
     resolution: {integrity: sha512-sTitTPYnn23esFR3RlqYBWn4c45WGeLcsKzQiUpXJAyfcWkolvlYpV8FLo7JishK946oQwMFUCHXQ9AjGPKExw==}
     dev: true
 
-  /pathe/1.0.0:
-    resolution: {integrity: sha512-nPdMG0Pd09HuSsr7QOKUXO2Jr9eqaDiZvDwdyIhNG5SHYujkQHYKDfGQkulBxvbDHz8oHLsTgKN86LSwYzSHAg==}
+  /pathe/1.1.0:
+    resolution: {integrity: sha512-ODbEPR0KKHqECXW1GoxdDb+AZvULmXjVPy4rt+pGo2+TnjJTIPJQSVS6N63n8T2Ip+syHhbn52OewKicV0373w==}
 
   /pathval/1.1.1:
     resolution: {integrity: sha512-Dp6zGqpTdETdR63lehJYPeIOqpiNBNtc7BpWSLrOje7UaIsE5aY92r/AunQA7rsXvet3lrJ3JnZX29UPTKXyKQ==}
@@ -467,7 +467,7 @@ packages:
     dependencies:
       jsonc-parser: 3.2.0
       mlly: 1.0.0
-      pathe: 1.0.0
+      pathe: 1.1.0
     dev: true
 
   /postcss/8.4.19:
